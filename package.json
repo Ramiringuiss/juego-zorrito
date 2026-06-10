@@ -1,0 +1,17 @@
+{
+  "name": "pastor-de-cabras-sechura",
+  "version": "1.0.0",
+  "description": "Minijuego Pastor de Cabras en el Desierto de Sechura - Vite + Firebase",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "firebase": "^9.22.0"
+  },
+  "devDependencies": {
+    "vite": "^4.4.0"
+  }
+}
