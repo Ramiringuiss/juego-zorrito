@@ -24,7 +24,7 @@ export default class UIManager {
     // Level
     ctx.fillStyle = "#444";
     ctx.font = "14px Inter, system-ui, sans-serif";
-    ctx.fillText(`Nivel: ${level}`, 18, 50);
+    ctx.fillText(`Nivel actual: ${level}`, 18, 50);
 
     // Time on right
     ctx.textAlign = "right";
