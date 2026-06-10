@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pastor de Cabras en el Desierto de Sechura</title>
+    
+    <script type="module" crossorigin src="/juego-zorrito/assets/index-7c6296f2.js"></script>
+    <link rel="stylesheet" href="/juego-zorrito/assets/index-b3260f7f.css">
+  </head>
+  <body>
+    <main>
+      <h1>Pastor de Cabras en el Desierto de Sechura</h1>
+
+      <!-- Login overlay (shown before auth) -->
+      <div id="loginOverlay" class="login-overlay">
+        <div class="login-card">
+          <h2>Bienvenido</h2>
+          <p>Inicia sesión con tu cuenta de Google para jugar y guardar tu record.</p>
+          <button id="googleSignIn" class="btn-google">Iniciar Sesión con Google</button>
+        </div>
+      </div>
+
+      <!-- Top user bar & controls (hidden until login) -->
+      <div id="userBar" class="user-bar" style="display:none">
+        <div class="user-info">Conectado como <span id="userName"></span></div>
+        <div class="user-actions">
+          <button id="playAgain" class="btn-secondary">Jugar de nuevo</button>
+          <button id="signOutBtn" class="btn-ghost">Cerrar sesión</button>
+        </div>
+      </div>
+
+      <canvas id="juegoCanvas" width="600" height="400" style="display:none"></canvas>
+      <div id="scoreBoard" class="score-board"></div>
+      <div id="records" class="records"></div>
+    </main>
+
+    
+  </body>
+</html>
